@@ -1,12 +1,21 @@
-# markdown
-git config--global user.email 
-git config--global user.name "Yuyuko1"
-git config--global url."https://github.com.cnpmjs.org/".insteadOf"https://github.com/"
-It is my markdown editor! tangchengming
-git checkout -b develop
-git branch -a
-git add .
-git commit -m "finished markdown"
-git checkout main
-git merge develop
-git push origin main
+# sccnb
+
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
